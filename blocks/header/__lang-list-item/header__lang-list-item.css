@@ -1,0 +1,19 @@
+.header__lang-list-item {
+  font-size: 24px;
+  line-height: 28px;
+  padding: 0;
+  margin-right: 18px;
+  display: inline;
+  list-style-type: none;
+}
+
+.header__lang-list-item:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-list-item {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
