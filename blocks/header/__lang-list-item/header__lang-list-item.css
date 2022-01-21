@@ -3,8 +3,6 @@
   line-height: 28px;
   padding: 0;
   margin-right: 18px;
-  display: inline;
-  list-style-type: none;
 }
 
 .header__lang-list-item:last-of-type {
