@@ -4,6 +4,7 @@
   grid-template-columns: 460px 1fr;
   grid-template-rows: 1fr;
   grid-gap: 48px 40px;
+  border: 1px s
 }
 
 .place:last-of-type {
@@ -26,6 +27,7 @@
 
 @media screen and (max-width: 767px) {
   .place {
+    padding-bottom: 50px;
     grid-template-columns: minmax(min-content, max-content);
     grid-gap: 32px;
   }  

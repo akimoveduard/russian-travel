@@ -2,16 +2,16 @@
   margin: 0 auto;
   width: 100%;
   max-width: 1184px;
-  min-height: 740px;
   /**
    * Это значение установлено, чтобы решить проблему,
    * возникающую когда у "родителя" установлена только min-height,
    * при этом "потомок", при значении height 100%, не занимает всю высоту родителя,
-   * а ведет себя так словно у "родителя" высота задана auto (высчитывается от содержимого блока).
+   * а ведет себя так словно у "родителя" высота блока задана auto и высчитывается от содержимого блока.
    * Подробнее об этом написано в статье
    * https://www.456bereastreet.com/archive/201306/height_in_percent_when_parent_has_min-height_and_no_height/
    */
   height: 1px;
+  min-height: 740px;
   background-image: url(../../images/cover-trains.jpg);
   background-repeat: no-repeat;
   background-size: cover;
