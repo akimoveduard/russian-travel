@@ -12,11 +12,11 @@
 
 * HTML5
 * CSS3
+* JavaScript
 * БЭМ/BEM Nested
-* Flexbox
-* Grid
 * Git
 * GitHub
+* Webpack
 
 ## Инструкция по установке
 `git clone https://github.com/akimoveduard/russian-travel.git`
