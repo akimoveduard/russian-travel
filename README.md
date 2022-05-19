@@ -19,7 +19,7 @@
 * GitHub
 
 ## Инструкция по установке
-```git clone https://github.com/akimoveduard/russian-travel.git```
+`git clone https://github.com/akimoveduard/russian-travel.git`
 
 ## Статус проекта
 Проект закончен.
